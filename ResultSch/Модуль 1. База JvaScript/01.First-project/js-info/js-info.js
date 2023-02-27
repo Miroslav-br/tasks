@@ -1,0 +1,5 @@
+alert("Самая первая реализация JavaScript была создана Бренданом Эйхом")
+alert('Mocha(Позже JavaScript), был реализован Бренданом Эйхом в течение десяти дней и впервые был включен в пре-альфу версию Netscape2')
+alert('JavaScript появился в 1995 году')
+alert('JavaScript это не Java')
+alert('Спецификация - ECMAScript')

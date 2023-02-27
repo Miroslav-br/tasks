@@ -1,0 +1,52 @@
+.timer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--second-color);
+    font-weight: 700px;
+    font-size: 18px;
+    letter-spacing: .04em;
+    height: 66px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    body {
+        padding-top: 61px;
+    }
+    body:after {
+        top: 61px;
+    }
+
+    .timer {
+        height: 61px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 58px;
+    }
+    body:after {
+        top: 58px;
+    }
+
+    .timer {
+        height: 58px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 580px) {
+
+    .timer {
+        font-size: 12px;
+    }
+    .timer__count {
+        display: block;
+    }
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffe2b0;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navigation {
+    margin-bottom: 20px;
+}
+
+.navigation__list {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    text-align: center;
+}
+
+.navigation__item {
+    margin-right: 100px;
+    /* Превращаю элемент из блочного в строчный */
+    display: inline;
+}
+
+.navigation__item:last-child {
+    margin-right: 0px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: font-size .2s linear 
+}
+
+.navigation__link:hover {
+    font-size: 22px;
+}
+
+
+.container__image {
+    height: 640px;
+    background-image: url(../Sources/01-Картинка-фона.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.container__block {
+    position: relative;
+    left: 50.52%;
+    top: 54.53%;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8) 100%);
+    padding: 15px 0px;
+}
+
+.container__border {
+    height: 160px;
+    width: 390px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding-top: 17px;
+    padding-left: 28px;
+    text-align: left;
+}
+
+.container__border-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0px 0px 9px 0px;
+}
+
+.container__border-text {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.container__emblems {
+    margin-bottom: 20px;
+}
+
+.container__stamps {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container__stamps img{
+    max-width: 290px;
+    margin-right: 76px;
+}
+.container__stamps img:last-child {
+    margin-right: 0px;
+}
+
+#orange {
+    color: #f15b40;
+}
+
+.container__description-title {
+    text-align: center;
+    font-size: 96px;
+}
+
+.container__description-text {
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section__container {
+    margin-bottom: 20px; 
+}
+
+.container__map-title {
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container__map-map {
+    height: 400px;
+    width: 900px;
+    margin: 0 auto;
+}
