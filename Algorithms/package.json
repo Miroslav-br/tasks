@@ -1,0 +1,13 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "In this directory, there are common algorithms\r * linear search;\r #\r ## Ru\r В данном каталоге, находятся распространенные алгоритмы :\r * линенйный поиск;",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
